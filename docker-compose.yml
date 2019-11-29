@@ -1,0 +1,7 @@
+noia:
+ build: .
+ ports:
+  - "8048:8048/tcp"
+  - "8058:8058/udp"
+ volumes:
+  - "/root/noia/noia-config:/root/.noia-node/"
